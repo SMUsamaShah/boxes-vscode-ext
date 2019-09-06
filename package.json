@@ -1,0 +1,205 @@
+{
+	"publisher": "smusamashah",
+	"name": "boxes",
+	"displayName": "boxes",
+	"description": "Basic ASCII symbols for your basic drawing needs",
+	"version": "0.0.1",
+	"repository": {
+		"url": "https://github.com/SMUsamaShah/boxes-vscode-ext"
+	},
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.singleVerticalLine",
+		"onCommand:extension.singleVerticalAndLeftLine",
+		"onCommand:extension.doubleLineVerticalAndLeft",
+		"onCommand:extension.doubleVerticalLine",
+		"onCommand:extension.doubleLineUpperRightCorner",
+		"onCommand:extension.doubleLineLowerRightCorner",
+		"onCommand:extension.singleLineUpperRightCorner",
+		"onCommand:extension.singleLineLowerLeftCorner",
+		"onCommand:extension.singleLineHorizontalAndUp",
+		"onCommand:extension.singleLineHorizontalDown",
+		"onCommand:extension.singleLineVerticalAndRight",
+		"onCommand:extension.singleHorizontalLine",
+		"onCommand:extension.singleLineHorizontalVertical",
+		"onCommand:extension.doubleLineLowerLeftCorner",
+		"onCommand:extension.doubleLineUpperLeftCorner",
+		"onCommand:extension.doubleLineHorizontalAndUp",
+		"onCommand:extension.doubleLineHorizontalDown",
+		"onCommand:extension.doubleLineVerticalAndRight",
+		"onCommand:extension.doubleHorizontalLine",
+		"onCommand:extension.doubleLineHorizontalVertical",
+		"onCommand:extension.singleLineLowerRightCorner",
+		"onCommand:extension.singleLineUpperLeftCorner",
+		"onCommand:extension.fullBlock",
+		"onCommand:extension.lowerHalfBlock",
+		"onCommand:extension.upperHalfBlock",
+		"onCommand:extension.lowDensityDotted",
+		"onCommand:extension.mediumDensityDotted",
+		"onCommand:extension.highDensityDotted"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.singleVerticalLine",
+				"title": "│ single vertical line",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleVerticalAndLeftLine",
+				"title": "┤ single vertical and left line",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineVerticalAndLeft",
+				"title": "╣ double line vertical and left",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleVerticalLine",
+				"title": "║ double vertical line",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineUpperRightCorner",
+				"title": "╗ double line upper right corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineLowerRightCorner",
+				"title": "╝ double line lower right corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineUpperRightCorner",
+				"title": "┐ single line upper right corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineLowerLeftCorner",
+				"title": "└ single line lower left corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineHorizontalAndUp",
+				"title": "┴ single line horizontal and up",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineHorizontalDown",
+				"title": "┬ single line horizontal down",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineVerticalAndRight",
+				"title": "├ single line vertical and right",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleHorizontalLine",
+				"title": "─ single horizontal line",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineHorizontalVertical",
+				"title": "┼ single line horizontal vertical",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineLowerLeftCorner",
+				"title": "╚ double line lower left corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineUpperLeftCorner",
+				"title": "╔ double line upper left corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineHorizontalAndUp",
+				"title": "╩ double line horizontal and up",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineHorizontalDown",
+				"title": "╦ double line horizontal down",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineVerticalAndRight",
+				"title": "╠ double line vertical and right",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleHorizontalLine",
+				"title": "═ double horizontal line",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.doubleLineHorizontalVertical",
+				"title": "╬ double line horizontal vertical",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineLowerRightCorner",
+				"title": "┘ single line lower right corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.singleLineUpperLeftCorner",
+				"title": "┌ single line upper left corner",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.fullBlock",
+				"title": "█ full block",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.lowerHalfBlock",
+				"title": "▄ lower half block",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.upperHalfBlock",
+				"title": "▀ upper half block",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.lowDensityDotted",
+				"title": "░ low density dotted",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.mediumDensityDotted",
+				"title": "▒ medium density dotted",
+				"category": "Boxes"
+			},
+			{
+				"command": "extension.highDensityDotted",
+				"title": "▓ high density dotted",
+				"category": "Boxes"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.38.0",
+		"eslint": "^5.13.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.0.2"
+	}
+}
