@@ -4,6 +4,7 @@
 	"displayName": "boxes",
 	"description": "Basic ASCII symbols for your basic drawing needs",
 	"version": "0.0.1",
+	"icon": "icon.png",
 	"repository": {
 		"url": "https://github.com/SMUsamaShah/boxes-vscode-ext"
 	},
