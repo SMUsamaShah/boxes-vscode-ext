@@ -2,6 +2,8 @@
 
 This extensions provides basic box drawing characters https://en.wikipedia.org/wiki/Box-drawing_character
 
+Marketplace Link: https://marketplace.visualstudio.com/items?itemName=smusamashah.boxes
+
 ## Features
 
 Following characters are supported right now.
